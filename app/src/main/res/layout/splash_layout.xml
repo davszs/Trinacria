@@ -8,10 +8,15 @@
     android:orientation="vertical"
     tools:context=".SplashActivity">
 
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
     <ImageView
         android:id="@+id/ImgSplashIcon"
         android:layout_width="200dp"
-        android:layout_height="300dp"
+        android:layout_height="200dp"
         android:layout_marginTop="200dp"
         android:layout_gravity="center_horizontal"
         android:src="@color/black" />
